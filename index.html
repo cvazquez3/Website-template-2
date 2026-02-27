@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meet Our Little Martian! 👽🍼</title>
+  <meta name="description" content="A cute one-page site to celebrate a tiny Martian baby named Zarn." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="planet" aria-hidden="true">🪐</span>
+        <span>Little Martian</span>
+      </a>
+
+      <nav class="links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#facts">Facts</a>
+        <a href="#gallery">Gallery</a>
+        <a class="cta" href="#contact">Send a Signal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Born on Sol <span id="sol">2158</span> • Zero-G certified</p>
+          <h1>Meet Baby <span class="glow">Zarn</span> 👽🍼</h1>
+          <p class="sub">
+            A tiny explorer from the Red Planet, here to steal hearts, collect moon rocks,
+            and perfect the art of low-gravity crawling.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button" href="#contact">Request a Martian Wave 👋</a>
+            <a class="button ghost" href="#facts">See Cute Facts</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="num">0.38g</div>
+              <div class="label">Gravity</div>
+            </div>
+            <div class="stat">
+              <div class="num">100%</div>
+              <div class="label">Adorable</div>
+            </div>
+            <div class="stat">
+              <div class="num">∞</div>
+              <div class="label">Giggles</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hero-card" role="img" aria-label="Cute Martian baby illustration">
+          <div class="bubble">
+            <div class="avatar" aria-hidden="true">👶👽</div>
+            <div>
+              <div class="title">Baby Zarn</div>
+              <div class="muted">Tiny astronaut • Dust-bath enthusiast</div>
+            </div>
+          </div>
+
+          <ul class="mini-list">
+            <li>Favorite snack: <strong>Space mush purée</strong></li>
+            <li>Hobby: <strong>Crater hopping</strong></li>
+            <li>Current mission: <strong>First steps</strong></li>
+          </ul>
+
+          <div class="pulse-wrap">
+            <button class="button small" id="boopBtn" type="button">Boop the Helmet</button>
+            <span class="muted" id="boopMsg" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stars" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Zarn</h2>
+        <p class="lead">
+          Zarn is a curious little Martian baby who loves stargazing, riding rover toys,
+          and waving at Earth through the biggest crater window.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Care & Safety</h3>
+            <p>Helmet stays on during zoomies. Nap time is enforced by Mission Control.</p>
+          </article>
+          <article class="card">
+            <h3>Daily Routine</h3>
+            <p>Wake • wiggle • snack • explore • dust bath • bedtime story (in Martian).</p>
+          </article>
+          <article class="card">
+            <h3>Fun Vibe</h3>
+            <p>Friendly, goofy, and always ready to deliver a cosmic grin.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="facts" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Martian Baby Facts</h2>
+          <p class="lead">Press the button for a new adorable fact.</p>
+        </div>
+
+        <div class="fact-box card">
+          <div class="fact-emoji" id="factEmoji" aria-hidden="true">✨</div>
+          <div>
+            <div class="fact-title" id="factTitle">Did you know?</div>
+            <p class="fact-text" id="factText">
+              Low-gravity crawling is basically flying… but cuter.
+            </p>
+          </div>
+          <button class="button" id="factBtn" type="button">New Fact</button>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Mini Milestones</h3>
+            <ul class="check">
+              <li>First crater crawl</li>
+              <li>First rover ride</li>
+              <li>First “blorp” laugh</li>
+              <li>First dust-bath splash</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Service Area (of Cuteness)</h3>
+            <p>
+              Serving: Olympus Mons • Gale Crater • Valles Marineris • Anywhere snacks exist.
+            </p>
+            <p class="muted">*Earth visitors welcome. Bring cookies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Photo “Gallery”</h2>
+        <p class="lead">No real photos yet — just fun placeholders you can replace later.</p>
+
+        <div class="gallery">
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">🚀</div>
+            <figcaption>Suit-up time</figcaption>
+          </figure>
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">🛻</div>
+            <figcaption>Rover ride</figcaption>
+          </figure>
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">🪨</div>
+            <figcaption>Moon rock haul</figcaption>
+          </figure>
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">🌌</div>
+            <figcaption>Stargazing</figcaption>
+          </figure>
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">🫧</div>
+            <figcaption>Dust bath</figcaption>
+          </figure>
+          <figure class="tile">
+            <div class="tile-img" aria-hidden="true">👋</div>
+            <figcaption>Earth hello</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Send a Signal</h2>
+        <p class="lead">Drop a message to Baby Zarn’s Mission Control (demo form).</p>
+
+        <!-- This is a demo form (no backend). To make it work, use Formspree or Netlify Forms. -->
+        <form class="card form" id="signalForm">
+          <div class="row">
+            <label>
+              Your Name
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Your Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+          </div>
+
+          <label>
+            Your Message
+            <textarea name="message" rows="5" required
+              placeholder="Say hi to Zarn… 👽"></textarea>
+          </label>
+
+          <div class="row end">
+            <button class="button" type="submit">Transmit 🚀</button>
+            <span class="muted" id="formMsg" aria-live="polite"></span>
+          </div>
+        </form>
+
+        <footer class="mini-footer">
+          <small>© <span id="year"></span> Little Martian • Built with cosmic joy.</small>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
